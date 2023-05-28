@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.header-main{
+    display: flex;
+    justify-content: center;
+}
+.header-main img{
+    width: 250px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.navegacion{
+    width: 200px;
+    margin: 0 10px;
+    list-style: none;
+    
+}
+.opcion{
+    margin: 10px;
+}
+.devilman-crybaby{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.navegacion,.title, .subtitle{
+    text-transform: capitalize;
+}
+.inicio,.inicio p, .argumento,.argumento p, .personajes,  .personajes p, .personaje{
+    margin: 15px;
+}

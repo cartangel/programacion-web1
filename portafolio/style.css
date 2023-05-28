@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    list-style: none;
+}
+header{
+    background-color: #ffff;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    -webkit-box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+    -moz-box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+    box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+}
+.opcion a, .opcion-button a{
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(29, 199, 199);
+}
+.presentacion {
+    padding: 10vh 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.presentacion img {
+    width: 600px;
+     border-radius: 10px;
+}
+.presentacion, .mis-conocimientos, .proyectos, .contactame{
+    height: 90vh;
+}
+.nombre{
+    font-size: 48px;
+    color: rgb(29, 199, 199);
+}
+.rol{
+    margin: 10px 0;
+}
+
+.presentacion button{
+    color: #ffff;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(29, 199, 199) ;
+    font-size: 22px;
+    cursor: pointer;
+}
+.presentacion button:hover{
+    border: 2px solid black;
+    background-color: #ffff;
+color: rgb(29, 199, 199);
+}
+.mis-conocimientos{
+    background-color:rgb(29, 199, 199) ;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #ffff;
+padding: 30px 0;
+}
+.item-conocimiento img {
+    width: 300px;
+}
+.item-conocimiento  {
+    text-align: center;
+}
+.mis-conocimientos{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.titulo-conocimientos{
+font-size: 48px;
+}
+.lista-conocimientos{
+    display: flex;
+    width: 60%;
+    overflow-x: auto;
+}
+.lista-conocimientos::-webkit-scrollbar {
+    width: 12px;
+}
+.lista-conocimientos::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color:rgb(29, 199, 199)
+}
+.lista-conocimientos::-webkit-scrollbar-thumb {
+    background-color: #ffff;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.proyectos{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.lista-proyectos{
+    display: flex;
+    width: 60%;
+    overflow-x: auto;
+    justify-content: space-around;
+}
+.item-proyecto img {
+    width: 300px;
+}
+.item-proyecto {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.item-proyecto  {
+    text-align: center;
+}
+.titulo-proyectos{
+    font-size: 60px;
+    color: rgb(29, 199, 199);
+}
+.lista-proyectos::-webkit-scrollbar {
+    width: 12px;
+}
+.lista-proyectos::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color:rgb(29, 199, 199)
+}
+.lista-proyectos::-webkit-scrollbar-thumb {
+    background-color: #ffff;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.contactame{
+    background-color:rgb(29, 199, 199) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffff;
+    padding-left: 40px;
+}
+.escribeme{
+    font-size: 48px;
+    margin: 20px;
+}
+.contactame h2{
+    font-size: 40px;
+    margin: 10px;
+}
+.nombres{
+    display: flex;
+}
+
+.contactame input, .contactame textarea{
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    margin: 10px;
+}
+.contactame button{
+    border-radius: 25px;
+    padding: 20px 30px;
+    border: 1px solid #ffff;
+    outline: none;
+    background-color: rgb(29, 199, 199);
+    color: #ffff;
+    cursor: pointer;
+}
+.contactame button:hover{
+    border: 1px solid #ffff;
+    background-color:#ffff;
+    color: rgb(29, 199, 199);
+    cursor: pointer;
+}

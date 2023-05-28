@@ -1,0 +1,37 @@
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    margin: 0;
+    text-transform: capitalize;
+
+}
+header {
+    -webkit-box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+    -moz-box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+    box-shadow: 0px 8px 10px 0px rgba(112,198,204,1);
+    background-color: black;
+    padding-left: 30px;
+    margin-bottom:20px ;
+}
+nav, article {
+    padding-left: 30px;
+}
+header img{
+    width: 100px;
+}
+.articulos-navegacion{
+    display: flex;
+}
+main{
+    width: calc(100% - 230px);
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: #ffff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
